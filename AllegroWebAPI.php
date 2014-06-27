@@ -42,7 +42,7 @@ class AllegroWebAPI {
     $this->isSandbox = $sandbox;
 
     if ($this->isSandbox) {
-      $this->APIUrl    = self::SANDBOX_URL;
+      $this->APIUrl = self::SANDBOX_URL;
     }
     else {
       $this->APIUrl = self::PRODUCTION_URL;
